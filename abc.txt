@@ -1,0 +1,5 @@
+Gitweb的代码位于git的源码库中，如果是从源码进行安装的，那么gitweb应该已经安装好了。通过下面的命令可以查看Gitweb的安装位置：
+$ [root@bogon /]# ls -F $(dirname $(dirname $(git --html-path)))/gitweb
+$ gitweb.cgi*  static/
+$ [root@bogon /]# echo $(dirname $(dirname $(git --html-path)))/gitweb
+$ /usr/local/share/gitweb
