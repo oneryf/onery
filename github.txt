@@ -1,0 +1,119 @@
+zhang 国际mark
+|是世界|上最|幸福的|人|billYang|我男朋友|特爱|吃铜锅|北京|这边
+zhang
+|是世界|上最|幸福的|人|billYang|我男朋友|特爱|吃铜锅|北京|这边
+zhangzhangzhangzhangzhang
+Mdlp(){
+test
+t=$(grep "isShowHomeGrop" configs.properties|awk -F "=" '{print $2}')
+echo t=$t
+t=${t:0:1}0
+if [ $t -eq 1 ] ;then
+echo "configs.properties=1要修改成2"
+sed -i 's/isShowHomeGrop\=1/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 0 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=0/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 2 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=2/isShowHomeGrop\=2/' configs.properties
+else
+echo "configs.properties中isShowHomeGrop默认值=0"Mdlp(){
+test
+t=$(grep "isShowHomeGrop" configs.properties|awk -F "=" '{print $2}')
+echo t=$t
+t=${t:0:1}0
+if [ $t -eq 1 ] ;then
+echo "configs.properties=1要修改成2"
+sed -i 's/isShowHomeGrop\=1/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 0 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=0/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 2 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=2/isShowHomeGrop\=2/' configs.properties
+else
+echo "configs.properties中isShowHomeGrop默认值=0"Mdlp(){
+test
+t=$(grep "isShowHomeGrop" configs.properties|awk -F "=" '{print $2}')
+echo t=$t
+t=${t:0:1}0
+if [ $t -eq 1 ] ;then
+echo "configs.properties=1要修改成2"
+sed -i 's/isShowHomeGrop\=1/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 0 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=0/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 2 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=2/isShowHomeGrop\=2/' configs.properties
+else
+echo "configs.properties中isShowHomeGrop默认值=0"
+13731999111
+oner@sina.com 33333
+https://mp.weixin.qq.com	微信公众平台	
+7 https://bitbucket.org/	Bitbucket	只有登录需求
+
+9	https://code.jd.com/	jd代码托管	打不开网页
+18	http://jquery.cuishifeng.cn/	jqueryAPI	未找到提交文件和表单的入口
+22	http://www.code4app.com/	code4app iOS国内开源网		QQ登录并注册，有事件
+23	http://www.52svn.com/	52SVN		无事件
+24	http://xiaolvyun.baidu.com/	百度效率云		论坛跳转到百度智能云https://cloud.baidu.com/forum/bce，无事件
+25	http://code.taobao.org/	阿里云code	打不开网页	打不开网页
+
+13731999111
+oner@sina.com 33333
+Mdlp(){
+test
+t=$(grep "isShowHomeGrop" configs.properties|awk -F "=" '{print $2}')
+echo t=$t
+t=${t:0:1}0
+if [ $t -eq 1 ] ;then
+echo "configs.properties=1要修改成2"
+sed -i 's/isShowHomeGrop\=1/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 0 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=0/isShowHomeGrop\=2/' configs.properties
+elif [ $t -eq 2 ] ;then
+echo "configs.properties=2要修改成2"
+sed -i 's/isShowHomeGrop\=2/isShowHomeGrop\=2/' configs.properties
+else
+echo "configs.properties中isShowHomeGrop默认值=0"
+fi
+}
+Ndlp(){
+t=$(grep "isShowHomeGrop" configs.properties|awk -F "=" '{print $2}')
+echo t=$t
+t=${t:0:1}0
+if [ $t -eq 1 ] ;then
+echo "configs.properties=1要修改成2"
+sed -i 's/isShowHomeGrop\=1/isShowHomeGrop\=0/' configs.properties
+elif [ $t -eq 0 ] ;then
+echo "configs.properties=2要修改成0"
+sed -i 's/isShowHomeGrop\=0/isShowHomeGrop\=0/' configs.properties
+elif [ $t -eq 2 ] ;then
+echo "configs.properties=2要修改成0"
+sed -i 's/isShowHomeGrop\=2/isShowHomeGrop\=0/' configs.properties
+else
+echo "configs.properties中isShowHomeGrop默认值=0"
+fi
+}
+case "$MdlpOrNdlp" in
+"m")
+echo "编译MDLP，configs.properties=?要修改成2"
+Mdlp
+sleep 2
+;;
+"n")
+echo "编译MDLP，configs.properties=?要修改成1"
+Ndlp
+sleep 2
+;;
+
+*)
+echo "请重新输入脚本参数"
+exit 0
+;;
+esac
+
+echo "处理结束"
